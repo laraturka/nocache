@@ -1,0 +1,30 @@
+{
+    "name": "laraturka/nocache",
+    "description": "No Cache Middleware for Laravel",
+    "license": "MIT",
+
+    "support": {
+        "issues": "https://github.com/laraturka/nocache/issues",
+        "source": "https://github.com/laraturka/nocache"
+    },
+    "authors": [
+        {
+            "name": "Kadir YILMAZ",
+            "email": "kadir@kadir.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.3.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9.4",
+        "phpunit/phpunit": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraturka\\Nocache\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
