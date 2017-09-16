@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/support": "5.3.*"
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*",
     },
     "require-dev": {
         "mockery/mockery": "~0.9.4",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraturka\\Nocache\\": "src/"
+            "Laraturka\\nocache\\": "src/"
         }
     },
     "minimum-stability": "dev"
